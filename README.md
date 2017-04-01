@@ -2,8 +2,6 @@
 # nodejs_test Step
 Run test use `npm test`
 
-### INPUTS
-* `FLOW_ENABLE_FAILURE` - 
 
 ## EXAMPLE 
 
@@ -14,6 +12,5 @@ steps:
     failure: true
     plugin:
       name: nodejs_test
-      inputs:
-        - FLOW_ENABLE_FAILURE=$FLOW_ENABLE_FAILURE
+
 ```
